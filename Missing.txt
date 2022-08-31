@@ -1,0 +1,11 @@
+Login, Logout
+Like, Dislike
+Do Comment
+Subscribe
+-------------------------------
+View Like, Dislike
+View Channel Subscribers
+Channel Description
+video Description
+theme toggle
+Load more videos (LazyLoading)

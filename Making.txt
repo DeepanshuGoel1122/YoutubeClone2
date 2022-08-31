@@ -1,0 +1,79 @@
+Material Icons
+Material UI
+Rapid Api (Youtube API)
+
+npx create-react-app  ./
+
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+npm install axios react-player react-router-dom
+
+(By sx prop we can style any material ui component)
+
+make components, we have made a index.js file for easy imports
+
+create utils folder < create constants.js file for all mui icons import and constant strings
+
+
+work on navbar, put logo, create the SearchBar.
+we have user paper component(just white background type of element)
+ui of navbar is done
+
+now come to Feed, it has two parts, side navbar and videos part
+
+Typography is a element that is used for all text elements, we have put copyright in it,
+
+now create Sidebar.jsx, it will in the feed
+whenever we map something in react, we have to give each property a key
+
+now ui part of sidebar is complete
+
+--------------------------------------------------------------------------------------
+
+now make another box in feed for video part.
+create Videos.jsx
+
+now we will implement the data fetching api
+create new file fetchFromApi, copy code from rapidapi and paste their options over here.
+create .env file
+
+now we will add useEffect in feed.
+now also make useState for dynamic selected category,
+pass props to sidebar.jsx and selectedCategory and setSelectedCategory, remove const selectedCaategory variable, add onClick in the button in the sidebar button. 
+
+Now when we click any of the button in sidebar it will highlight
+
+now in fetchFromAPI useEffect function , we will attach .then function to extract the data
+create new state for videos
+
+pass the videos to the Video component,
+now come to Video.jsx, get gthe props videos, we are ow able to get videos,
+
+now make the layout of videos in Videos.jsx
+
+we are showing channel profile and videos related to that search, 
+
+create VideoCard.jsx, ChannelDetail.jsx
+
+make ui of the VideoCard, and now videos are showing
+
+--------------------------------------------------------------------------------
+
+
+now come to the channelCard
+after done with channel card 
+now we will make ChnnelDetails 
+
+by useParams we can get what is in the url
+
+after making channel details page,
+
+we will come to SearchFeed 
+
+then we wil come to VideoDetail
+
+
+after all work is done, all is working fine, the cfreate Loader and all done
+
+
+ 
